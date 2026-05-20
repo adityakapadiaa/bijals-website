@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Menu, X, ArrowRight, Instagram, Phone, Mail, MapPin, 
-  ChefHat, Users, Utensils, Star, Heart, MessageCircle, 
-  ChevronDown, ArrowUpRight
+  ChefHat, Users, Utensils, Star, Heart, MessageCircle
 } from 'lucide-react';
 
 // --- DATA & CONTENT (From Document) ---
