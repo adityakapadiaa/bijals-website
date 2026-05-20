@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { 
-  Menu, X, ArrowRight, Instagram, Phone, Mail, MapPin, 
+  Menu, X, ArrowRight, Phone, Mail, MapPin, 
   ChefHat, Users, Utensils, Star, Heart, MessageCircle
 } from 'lucide-react';
 
@@ -274,7 +274,13 @@ const Footer = ({ navigate }) => (
           Authentic culinary experiences, workshops, handcrafted products, and celebrations rooted in warmth, trust, and community.
         </p>
         <div className="flex gap-4">
-          <a href="#" className="p-3 bg-[#F9F8F6]/10 hover:bg-[#B25A38] transition-colors rounded-full"><Instagram className="w-5 h-5" /></a>
+          <a href="#" className="p-3 bg-[#F9F8F6]/10 hover:bg-[#B25A38] transition-colors rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </a>
           <a href="#" className="p-3 bg-[#F9F8F6]/10 hover:bg-[#B25A38] transition-colors rounded-full"><Mail className="w-5 h-5" /></a>
         </div>
       </div>
