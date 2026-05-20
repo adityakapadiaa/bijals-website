@@ -1,23 +1,11 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { 
   Menu, X, ArrowRight, Instagram, Phone, Mail, MapPin, 
   ChefHat, Users, Utensils, Star, Heart, MessageCircle
 } from 'lucide-react';
 
 // --- DATA & CONTENT (From Document) ---
-const BRAND = {
-  name: "Bijals Food Creations",
-  tagline: "Authentic Culinary Experiences Crafted With Heart",
-  colors: {
-    bg: "#F9F8F6", // Ivory/Cream
-    text: "#2C2C2A", // Charcoal
-    accent: "#B25A38", // Muted Terracotta
-    accentHover: "#9A4B2E",
-    sage: "#6F8165", // Sage Green
-  }
-};
-
 const CONTENT = {
   trustStrip: ["11+ Years", "5,000+ Students", "50+ Cuisines", "Corporate Workshops", "Airbnb Experiences"],
   offerings: [
